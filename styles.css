@@ -1,0 +1,433 @@
+body
+{
+    max-width: 1340px;
+    margin: 0 auto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.mb-show
+{
+    display: none;
+}
+
+/* header section styles  */
+header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.blue-logo img
+{
+    max-width: 150px;
+    display: block;
+}
+
+/* nav button styles with hover effect */
+button
+{
+    margin: 0 5px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 2px solid #DF1763;
+    transition: 0.5s;
+}
+
+.subscribe
+{
+    color: #FFFFFF;
+    background-color: #DF1763;
+}
+
+.subscribe:hover
+{
+    background-color: #4E95FD;
+    border-color: #4E95FD;
+}
+
+.log-in
+{
+    color: #DF1763;
+    background-color: #FFFFFF;
+}
+
+.log-in:hover
+{
+    color: #4E95FD;
+    border-color: #4E95FD;
+}
+
+/* hero image with text overlay styling */
+.hero
+{
+    background-image: url(./Jukebox-Starter-Kit/hero-photo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 720px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px 20px;
+    width: 75%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1
+{
+    font-family: 'Lalezar', 'Roboto', sans-serif;
+    font-size: 50px;
+    margin: 0px;
+
+}
+
+.hero p
+{
+    font-size: 24px;
+    padding-top: 0px;
+}
+
+.hero button
+{
+    margin: 0px;
+}
+
+.hero button:hover
+{
+    color: #4E95FD;
+    background-color: #FFFFFF;
+}
+
+/* pricing card section styles */
+.plans h2,
+.plans p
+{
+    text-align: center;
+}
+
+.plans h2
+{
+    color: #4E95FD;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 40px 20px 0px;
+    font-family: 'Lalezar', 'Roboto', sans-serif;
+}
+
+.plans p
+{
+    color: #959595;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px 15px 40px;
+}
+
+.plan-pricing
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.plan-card
+{
+    border-radius: 12px;
+    justify-content: center;
+    padding: 30px 0;
+    width: 300px;
+    margin: 0 0 50px 0;
+}
+
+.plan-card h3
+{
+    font-size: 40px;
+    margin: 10px 0;
+
+}
+
+.plan-card h4
+{
+    font-size: 28px;
+    margin: 5px;
+}
+
+.plan-card ul
+{
+    padding-left: 0;
+
+}
+
+.plan-card li
+{
+    list-style-type: none;
+    padding-bottom: 20px;
+
+}
+
+.plan-card button
+{
+    color: #FFFFFF;
+    background-color: transparent;
+    border-color: #FFFFFF;
+    padding: 10px 35px;
+    transition: 0.5s;
+}
+
+.plan-card button:hover
+{
+    color: #DF1763;
+    border-color: #DF1763;
+    background-color: #FFFFFF;
+}
+
+.basic
+{
+    background-color: #4E95FD;
+}
+
+.plus
+{
+    background-color: #4E65EC;
+}
+
+.premium
+{
+    background-color: #7A30D3;
+}
+
+/* Features section styles */
+section.features
+{
+    background-image: url(./Jukebox-Starter-Kit/about-photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    min-height: 550px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    padding: 250px 50px 50px;
+
+}
+
+.features div
+{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    max-width: 250px;
+    margin: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.features img
+{
+    width: 65px;
+    align-self: center;
+}
+
+.features h4
+{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+/* Artists section styles */
+.artists
+{
+    margin: 50px;
+}
+
+.artists h5
+{
+    color: #4E95FD;
+    text-align: center;
+    font-family: 'Lalezar', 'Roboto', sans-serif;
+    font-size: 32px;
+    margin: 0 0 10px;
+}
+
+.artists p
+{
+    margin-bottom: 50px;
+    color: #959595;
+    font-size: 16px;
+    text-align: center;
+}
+
+.albums ul
+{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    width: 100%;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+
+}
+
+.albums ul li
+{
+    width: calc(100%/3 - 40px);
+
+
+}
+
+.albums img
+{
+    display: block;
+    width: 100%;
+}
+
+/* Footer section styles */
+footer
+{
+    background-color: #4E95FD;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+}
+
+.white-logo
+{
+    margin-right: 50px;
+}
+
+.social-media nav
+{
+    margin-left: 50px;
+}
+
+.social-media nav img
+{
+    width: 20px;
+    align-items: center;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 480px)
+{
+
+    .mb-show
+    {
+        display: block;
+    }
+
+    .blue-logo img
+    {
+        max-width: 100px;
+    }
+
+    header button
+    {
+        margin: 0 5px;
+        padding: 0px 5px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        transition: 0.5s;
+    }
+
+    header .subscribe,
+    .log-in
+    {
+        text-decoration: underline;
+        background-color: white;
+        color: #DF1763
+    }
+
+    .hero
+    {
+        background-position: right center;
+        align-items: flex-end;
+    }
+
+    .hero-text
+    {
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    .plan-pricing
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.features
+    {
+        flex-direction: column;
+        height: auto;
+        background-position: 83% center;
+        padding-top: 50px;
+
+    }
+
+    .features div
+    {
+        width: 100%;
+        max-width: 400px;
+        margin: 0;
+    }
+
+    .albums ul li
+    {
+        width: calc(100% / 2 - 20px);
+    }
+
+    footer
+    {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .white-logo
+    {
+        margin-right: 0px;
+        padding-bottom: 10px;
+    }
+
+    .social-media nav
+    {
+        margin-left: 0px;
+        padding-top: 10px;
+    }
+
+    .social-media nav img
+    {
+        margin-left: 5px;
+    }
+}
